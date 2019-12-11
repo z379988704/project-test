@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- thymeleaf模板提供了自己的标签可以和html相结合 -->
+品牌中文名:<p th:text="${brand.chineseName}"></p>
+品牌英文名:<p th:text="${brand.englishName}"></p>
+品牌编号:<input type="text" th:value="${brand.id}" />
+
+</body>
+</html>
